@@ -1,0 +1,38 @@
+body {background-color: white;
+}
+
+.container{
+    background-color: rgb(225, 225, 225);
+}
+
+.container-photo{
+  
+}
+
+.contact-photo{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px;
+    width: 200px;
+    height: auto;
+}
+
+
+.modulo-1 {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    padding: auto;
+    margin:5px;
+    max-width: 100%;
+    height: auto;    
+}
+
+.modulo-2 {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    padding: auto;
+    margin:5px
+}
