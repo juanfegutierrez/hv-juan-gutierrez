@@ -5,6 +5,10 @@ body {background-color: white;
     background-color: rgb(225, 225, 225);
 }
 
+.row {
+    
+}
+
 .container-photo{
   
 }
@@ -17,22 +21,17 @@ body {background-color: white;
     width: 200px;
     height: auto;
 }
-
-
-.modulo-1 {
-    display: flex;
-    flex-direction: row;
-    width: 50px;
-    padding: auto;
-    margin:5px;
-    max-width: 100%;
-    height: auto;    
+.container-iconos .col-lg-3 {
+    display: inline-block;
+    vertical-align: top; /* Alinea los elementos en la parte superior */
 }
 
-.modulo-2 {
-    display: flex;
-    flex-direction: row;
-    width: 50px;
-    padding: auto;
-    margin:5px
+.container-iconos i,
+.container-iconos h6 {
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el espacio entre el ícono y el texto */
 }
+
+
+
+
